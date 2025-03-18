@@ -1,0 +1,101 @@
+{% extends "templates/web.html" %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LedgerCtrl</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Hero Section -->
+    <section class="flex flex-col lg:flex-row items-center justify-between px-10 py-20 bg-gray-100">
+        <div class="lg:w-1/2 text-center lg:text-left">
+            <h1 class="text-4xl font-bold text-gray-900">
+                We boost growth for your startup business
+            </h1>
+            <p class="mt-4 text-gray-600">Our goal is to provide top-tier solutions for your brand.</p>
+            <div class="mt-6">
+                <a href="#" class="bg-orange-500 text-white px-6 py-3 rounded-lg mr-3">Get Started</a>
+                <a href="#" class="border border-orange-500 text-orange-500 px-6 py-3 rounded-lg">Learn More</a>
+            </div>
+        </div>
+        <div class="lg:w-1/2 mt-8 lg:mt-0">
+            <img src="https://via.placeholder.com/500" alt="Business Growth" class="w-full">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="text-center py-20">
+        <h2 class="text-3xl font-bold">Our Vision & Our Goal</h2>
+        <div class="flex flex-wrap justify-center mt-10">
+            <div class="bg-white shadow-lg p-6 rounded-lg mx-4 w-80">
+                <img src="https://via.placeholder.com/50" alt="Graphic Design">
+                <h3 class="text-xl font-semibold mt-4">Graphic Design</h3>
+                <p class="text-gray-600 mt-2">We offer modern, sleek designs for your brand.</p>
+                <a href="#" class="mt-4 inline-block text-orange-500">Learn More</a>
+            </div>
+            <div class="bg-white shadow-lg p-6 rounded-lg mx-4 w-80">
+                <img src="https://via.placeholder.com/50" alt="Video Editing">
+                <h3 class="text-xl font-semibold mt-4">Video Editing</h3>
+                <p class="text-gray-600 mt-2">High-quality video production tailored for your business.</p>
+                <a href="#" class="mt-4 inline-block text-orange-500">Learn More</a>
+            </div>
+            <div class="bg-white shadow-lg p-6 rounded-lg mx-4 w-80">
+                <img src="https://via.placeholder.com/50" alt="Digital Marketing">
+                <h3 class="text-xl font-semibold mt-4">Digital Marketing</h3>
+                <p class="text-gray-600 mt-2">Smart advertising strategies to grow your audience.</p>
+                <a href="#" class="mt-4 inline-block text-orange-500">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="bg-gray-100 py-20 text-center">
+        <h2 class="text-3xl font-bold">What Clients Say About Us</h2>
+        <div class="flex flex-wrap justify-center mt-10">
+            <div class="bg-white p-6 shadow-lg rounded-lg mx-4 w-72">
+                <p class="text-gray-600">"This is the best service we've used for our brand growth."</p>
+                <h4 class="font-semibold mt-4">Rayyan Curran</h4>
+            </div>
+            <div class="bg-white p-6 shadow-lg rounded-lg mx-4 w-72">
+                <p class="text-gray-600">"Great team and great results!"</p>
+                <h4 class="font-semibold mt-4">Kayley Frame</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet The Team -->
+    <section class="text-center py-20">
+        <h2 class="text-3xl font-bold">Meet The Team</h2>
+        <div class="flex flex-wrap justify-center mt-10">
+            <div class="text-center mx-4">
+                <img src="https://via.placeholder.com/100" class="rounded-full mx-auto">
+                <h3 class="mt-4 font-semibold">Vanessa Laird</h3>
+                <p class="text-gray-500">UI Designer</p>
+            </div>
+            <div class="text-center mx-4">
+                <img src="https://via.placeholder.com/100" class="rounded-full mx-auto">
+                <h3 class="mt-4 font-semibold">Mason Campbell</h3>
+                <p class="text-gray-500">Developer</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="bg-gray-900 text-white py-20 text-center">
+        <h2 class="text-3xl font-bold">Subscribe to Our Newsletter</h2>
+        <p class="mt-4 text-gray-400">Stay updated with the latest trends and insights.</p>
+        <div class="mt-6">
+            <input type="email" placeholder="Enter your email" class="px-4 py-3 rounded-l-lg w-64">
+            <button class="bg-orange-500 px-6 py-3 rounded-r-lg">Subscribe</button>
+        </div>
+    </section>
+
+</body>
+</html>
+
+{% endblock %}
